@@ -1,0 +1,44 @@
+INSERT INTO names (name)
+VALUES ("Crystal")
+
+SELECT * FROM names
+
+
+INSERT INTO names (name)
+VALUES ("Zackary"), ("Emma"), ("Madison"), ("Clara")
+
+SELECT * FROM names
+
+DELETE FROM users
+WHERE id = 1;
+
+SELECT * FROM names
+
+DELETE FROM names
+WHERE id = 2;
+
+DELETE FROM names
+WHERE id = 3;
+
+DELETE FROM names
+WHERE id = 4;
+
+DELETE FROM names
+WHERE id = 5;
+
+DELETE FROM names
+WHERE id = 7;
+
+DELETE FROM names
+WHERE id = 11;
+
+DELETE FROM names
+WHERE id = 13;
+
+SELECT * FROM names
+
+DELETE FROM names
+WHERE id = 14;
+
+
+SELECT * FROM names
